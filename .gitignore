@@ -1,0 +1,9 @@
+Anaconda3-5.3.0-Linux-x86_64.sh
+Detectron.pytorch/
+cifar-10-batches-py/*
+cifar-10-python.tar.gz
+nohup.out
+.ipynb_checkpoints/
+*.o
+*.pyx
+*.pyc
