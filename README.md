@@ -12,3 +12,5 @@ http://web.mit.edu/6.454/www/www_fall_2003/gew/CEtutorial.pdf
 
 # acceleration
 https://github.com/onnx/onnx
+https://docs.nvidia.com/deeplearning/sdk/tensorrt-api/python_api/index.html
+
