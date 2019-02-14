@@ -16,3 +16,6 @@ https://docs.nvidia.com/deeplearning/sdk/tensorrt-api/python_api/index.html
 
 # cuda
 https://devblogs.nvidia.com/even-easier-introduction-cuda/
+
+# cv
+http://homepages.inf.ed.ac.uk/rbf/HIPR2/hough.htm
