@@ -6,7 +6,7 @@ import torchvision.transforms as transforms
 import argparse
 from resnet18 import ResNet18
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+#device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 parser = argparse.ArgumentParser(description='PyTorch CIFAR10 Training')
 parser.add_argument('--outf', default='./model/', help='folder to output images and model checkpoints')
@@ -30,16 +30,16 @@ transform_test = transforms.Compose([
     transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
 ])
 
-trainset = torchvision.datasets.CIFAR10(root='/home/ltq/test/', train=True, download=False, transform=transform_train) 
+trainset = torchvision.datasets.CIFAR10(root='/home/ltq/cifar/', train=True, download=False, transform=transform_train) 
 trainloader = torch.utils.data.DataLoader(trainset, batch_size=BATCH_SIZE, shuffle=True, num_workers=2)
 
-testset = torchvision.datasets.CIFAR10(root='/home/ltq/test/', train=False, download=False, transform=transform_test)
+testset = torchvision.datasets.CIFAR10(root='/home/ltq/cifar/', train=False, download=False, transform=transform_test)
 testloader = torch.utils.data.DataLoader(testset, batch_size=100, shuffle=False, num_workers=2)
 
 classes = ('plane', 'car', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
 
 
-net = ResNet18().to(device)
+net = ResNet18().cuda(1) #.to(device)
 
 
 criterion = nn.CrossEntropyLoss() 
@@ -60,7 +60,8 @@ if __name__ == "__main__":
                 for i, data in enumerate(trainloader, 0):
                     length = len(trainloader)
                     inputs, labels = data
-                    inputs, labels = inputs.to(device), labels.to(device)
+                    #inputs, labels = inputs.to(device), labels.to(device)
+                    inputs, labels = inputs.cuda(1), labels.cuda(1)  #.to(device), labels.to(device)
                     optimizer.zero_grad()
 
                     outputs = net(inputs)
@@ -86,7 +87,8 @@ if __name__ == "__main__":
                     for data in testloader:
                         net.eval()
                         images, labels = data
-                        images, labels = images.to(device), labels.to(device)
+                        #images, labels = images.to(device), labels.to(device)
+                        images, labels = images.cuda(1), labels.cuda(1)  #.to(device), labels.to(device)
                         outputs = net(images)
                         _, predicted = torch.max(outputs.data, 1)
                         total += labels.size(0)
