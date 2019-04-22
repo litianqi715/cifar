@@ -1,0 +1,171 @@
+nohup: ignoring input
+0.3.1
+Starting training
+epoch: 1
+[epoch:001, iter:00001] Loss: 2.400 | Acc: 10.938% | time: 13.03s 
+[epoch:001, iter:00002] Loss: 2.371 | Acc: 8.789% | time: 13.90s 
+[epoch:001, iter:00003] Loss: 2.330 | Acc: 11.328% | time: 17.04s 
+[epoch:001, iter:00004] Loss: 2.330 | Acc: 11.426% | time: 19.90s 
+[epoch:001, iter:00005] Loss: 2.314 | Acc: 12.031% | time: 21.76s 
+[epoch:001, iter:00006] Loss: 2.302 | Acc: 13.607% | time: 23.34s 
+[epoch:001, iter:00007] Loss: 2.291 | Acc: 15.011% | time: 24.59s 
+[epoch:001, iter:00008] Loss: 2.279 | Acc: 15.625% | time: 25.12s 
+[epoch:001, iter:00009] Loss: 2.263 | Acc: 15.972% | time: 25.55s 
+[epoch:001, iter:00010] Loss: 2.248 | Acc: 16.602% | time: 25.97s 
+[epoch:001, iter:00011] Loss: 2.242 | Acc: 17.365% | time: 26.39s 
+[epoch:001, iter:00012] Loss: 2.231 | Acc: 17.643% | time: 26.80s 
+[epoch:001, iter:00013] Loss: 2.220 | Acc: 17.879% | time: 27.22s 
+[epoch:001, iter:00014] Loss: 2.208 | Acc: 18.220% | time: 27.64s 
+[epoch:001, iter:00015] Loss: 2.198 | Acc: 18.411% | time: 28.06s 
+[epoch:001, iter:00016] Loss: 2.191 | Acc: 18.604% | time: 28.49s 
+[epoch:001, iter:00017] Loss: 2.177 | Acc: 18.934% | time: 28.90s 
+[epoch:001, iter:00018] Loss: 2.168 | Acc: 19.162% | time: 29.32s 
+[epoch:001, iter:00019] Loss: 2.158 | Acc: 19.449% | time: 29.74s 
+[epoch:001, iter:00020] Loss: 2.146 | Acc: 19.844% | time: 30.16s 
+[epoch:001, iter:00021] Loss: 2.139 | Acc: 20.145% | time: 30.58s 
+[epoch:001, iter:00022] Loss: 2.128 | Acc: 20.650% | time: 31.00s 
+[epoch:001, iter:00023] Loss: 2.118 | Acc: 20.839% | time: 31.42s 
+[epoch:001, iter:00024] Loss: 2.112 | Acc: 21.191% | time: 31.84s 
+[epoch:001, iter:00025] Loss: 2.110 | Acc: 21.328% | time: 32.26s 
+[epoch:001, iter:00026] Loss: 2.103 | Acc: 21.725% | time: 32.67s 
+[epoch:001, iter:00027] Loss: 2.095 | Acc: 22.092% | time: 33.09s 
+[epoch:001, iter:00028] Loss: 2.088 | Acc: 22.266% | time: 33.51s 
+[epoch:001, iter:00029] Loss: 2.081 | Acc: 22.495% | time: 33.93s 
+[epoch:001, iter:00030] Loss: 2.076 | Acc: 22.604% | time: 34.35s 
+[epoch:001, iter:00031] Loss: 2.070 | Acc: 22.820% | time: 34.76s 
+[epoch:001, iter:00032] Loss: 2.064 | Acc: 22.998% | time: 35.18s 
+[epoch:001, iter:00033] Loss: 2.057 | Acc: 23.260% | time: 35.60s 
+[epoch:001, iter:00034] Loss: 2.051 | Acc: 23.449% | time: 36.02s 
+[epoch:001, iter:00035] Loss: 2.047 | Acc: 23.449% | time: 36.44s 
+[epoch:001, iter:00036] Loss: 2.042 | Acc: 23.676% | time: 36.86s 
+[epoch:001, iter:00037] Loss: 2.035 | Acc: 24.008% | time: 37.28s 
+[epoch:001, iter:00038] Loss: 2.028 | Acc: 24.270% | time: 37.70s 
+[epoch:001, iter:00039] Loss: 2.024 | Acc: 24.499% | time: 38.12s 
+[epoch:001, iter:00040] Loss: 2.019 | Acc: 24.736% | time: 38.54s 
+[epoch:001, iter:00041] Loss: 2.013 | Acc: 24.981% | time: 38.96s 
+[epoch:001, iter:00042] Loss: 2.008 | Acc: 25.149% | time: 39.38s 
+[epoch:001, iter:00043] Loss: 2.002 | Acc: 25.300% | time: 39.80s 
+[epoch:001, iter:00044] Loss: 1.999 | Acc: 25.391% | time: 40.21s 
+[epoch:001, iter:00045] Loss: 1.993 | Acc: 25.573% | time: 40.63s 
+[epoch:001, iter:00046] Loss: 1.990 | Acc: 25.679% | time: 41.05s 
+[epoch:001, iter:00047] Loss: 1.986 | Acc: 25.898% | time: 41.47s 
+[epoch:001, iter:00048] Loss: 1.981 | Acc: 26.058% | time: 41.89s 
+[epoch:001, iter:00049] Loss: 1.978 | Acc: 26.180% | time: 42.31s 
+[epoch:001, iter:00050] Loss: 1.976 | Acc: 26.352% | time: 42.73s 
+[epoch:001, iter:00051] Loss: 1.970 | Acc: 26.478% | time: 43.15s 
+[epoch:001, iter:00052] Loss: 1.967 | Acc: 26.562% | time: 43.57s 
+[epoch:001, iter:00053] Loss: 1.962 | Acc: 26.747% | time: 43.99s 
+[epoch:001, iter:00054] Loss: 1.959 | Acc: 26.888% | time: 44.41s 
+[epoch:001, iter:00055] Loss: 1.956 | Acc: 27.031% | time: 44.83s 
+[epoch:001, iter:00056] Loss: 1.953 | Acc: 27.079% | time: 45.25s 
+[epoch:001, iter:00057] Loss: 1.949 | Acc: 27.275% | time: 45.67s 
+[epoch:001, iter:00058] Loss: 1.946 | Acc: 27.431% | time: 46.09s 
+[epoch:001, iter:00059] Loss: 1.942 | Acc: 27.575% | time: 46.51s 
+[epoch:001, iter:00060] Loss: 1.939 | Acc: 27.611% | time: 46.93s 
+Process Process-8:
+Process Process-7:
+Process Process-2:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Process-3:
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Process-6:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Process-5:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+Process Process-1:
+Process Process-4:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+    self.run()
+    self._target(*self._args, **self._kwargs)
+    self.run()
+  File "/usr/local/lib/python2.7/dist-packages/torch/utils/data/dataloader.py", line 50, in _worker_loop
+    self._target(*self._args, **self._kwargs)
+    self.run()
+  File "/usr/local/lib/python2.7/dist-packages/torch/utils/data/dataloader.py", line 55, in _worker_loop
+  File "/usr/local/lib/python2.7/dist-packages/torch/utils/data/dataloader.py", line 50, in _worker_loop
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/torch/utils/data/dataloader.py", line 50, in _worker_loop
+    self.run()
+  File "/usr/local/lib/python2.7/dist-packages/torch/utils/data/dataloader.py", line 50, in _worker_loop
+  File "/usr/local/lib/python2.7/dist-packages/torch/utils/data/dataloader.py", line 50, in _worker_loop
+  File "/usr/local/lib/python2.7/dist-packages/torch/utils/data/dataloader.py", line 50, in _worker_loop
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/torch/utils/data/dataloader.py", line 50, in _worker_loop
+    r = index_queue.get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 376, in get
+    samples = collate_fn([dataset[i] for i in batch_indices])
+  File "/usr/local/lib/python2.7/dist-packages/torchvision/datasets/cifar.py", line 121, in __getitem__
+    r = index_queue.get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 376, in get
+    r = index_queue.get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 378, in get
+    r = index_queue.get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 376, in get
+    r = index_queue.get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 376, in get
+    r = index_queue.get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 376, in get
+    r = index_queue.get()
+  File "/usr/lib/python2.7/multiprocessing/queues.py", line 376, in get
+    racquire()
+    racquire()
+    return recv()
+    racquire()
+  File "/usr/local/lib/python2.7/dist-packages/torch/multiprocessing/queue.py", line 21, in recv
+    racquire()
+    racquire()
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+    racquire()
+KeyboardInterrupt
+    buf = self.recv_bytes()
+KeyboardInterrupt
+    img = self.transform(img)
+  File "/usr/local/lib/python2.7/dist-packages/torchvision/transforms/transforms.py", line 49, in __call__
+    img = t(img)
+  File "/usr/local/lib/python2.7/dist-packages/torchvision/transforms/transforms.py", line 76, in __call__
+    return F.to_tensor(pic)
+  File "/usr/local/lib/python2.7/dist-packages/torchvision/transforms/functional.py", line 81, in to_tensor
+    img = img.transpose(0, 1).transpose(0, 2).contiguous()
+KeyboardInterrupt
+Exception socket.error: error(2, 'No such file or directory') in <bound method DataLoaderIter.__del__ of <torch.utils.data.dataloader.DataLoaderIter object at 0x7f6c94634b50>> ignored
+Traceback (most recent call last):
+  File "train_pytorch_resnet18.py", line 92, in <module>
+    sum_loss += float(loss.data.cpu().numpy())
+  File "/usr/local/lib/python2.7/dist-packages/torch/tensor.py", line 45, in cpu
+    return self.type(getattr(torch, self.__class__.__name__))
+  File "/usr/local/lib/python2.7/dist-packages/torch/cuda/__init__.py", line 396, in type
+    return super(_CudaBase, self).type(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/torch/_utils.py", line 38, in _type
+    return new_type(self.size()).copy_(self, async)
+KeyboardInterrupt
